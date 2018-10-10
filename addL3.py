@@ -101,9 +101,12 @@ for row in nws.iter_rows(min_row=2):
     results.append(result)
     row[lsm_col-1].value = result
 
-print("Saving...")
-nwb.save("delme.xlsx")
-os.system("open delme.xlsx")
+newfile = os.path.join(os.getcwd(), "results", "{0}_L3.xlsx".format(os.path.splitext(n_file)[0]))
+print("Saving...{0}".format(newfile))
+
+nwb.save(newfile)
+if os.uname[0] ==  "Darwin":
+    os.system("open {0}".format(newfile))
 
 
 
