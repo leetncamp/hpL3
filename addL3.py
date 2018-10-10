@@ -30,7 +30,7 @@ if ns.files:
 else:
     #We didn't pass any files on the command line. Figure it out. 
     print(os.path.dirname(__file__))
-    os.chdir(os.path.dirname(__file__))
+    #os.chdir(os.path.dirname(__file__))
     files = [fn for fn in glob.glob("*.xlsx") if not fn.startswith("~")]
     l3files = [fn for fn in files if "l3" in fn.lower()]
     nfiles = [fn for fn in files if "9.32" in fn.lower()]
