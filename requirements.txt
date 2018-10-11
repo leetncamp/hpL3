@@ -1,4 +1,10 @@
+altgraph==0.16.1
+dis3==0.1.2
 et-xmlfile==1.0.1
+future==0.16.0
 ipaddress==1.0.22
 jdcal==1.4
+macholib==1.11
 openpyxl==2.5.8
+pefile==2018.8.8
+PyInstaller==3.4
