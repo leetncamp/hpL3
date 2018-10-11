@@ -106,7 +106,7 @@ newfile = os.path.join(os.getcwd(), "results", "{0}_L3.xlsx".format(os.path.spli
 print("Saving...{0}".format(newfile))
 
 nwb.save(newfile)
-if os.uname[0] ==  "Darwin":
+if os.uname()[0] ==  "Darwin":
     os.system("open {0}".format(newfile))
 
 
