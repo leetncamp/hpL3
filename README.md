@@ -32,7 +32,7 @@ Saving...C:\Users\support2\Desktop\hpL3\results\9.32 May 2018_L3.xlsx
 * make sure there is only one file that contains "L3" and only one file that contains "9.32"
 * python addL3.py
 
-###To complile a new version
+### To complile a new version
 
 * Edit addL3.py to suit your needs
 * Compile a new addL3.exe by doing this `pyinstaller.exe --onefile hpL3.py`
