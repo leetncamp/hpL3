@@ -1,7 +1,7 @@
 # hpL3
 L3 add to 9.32 report
 
-## Full Installation (
+## Full Installation
 ### For compliing a new version
 
 *install git for Windows
