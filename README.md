@@ -35,8 +35,5 @@ Saving...C:\Users\support2\Desktop\hpL3\results\9.32 May 2018_L3.xlsx
 ###To complile a new version
 
 * Edit addL3.py to suit your needs
-* Compile a new addL3.exe by doing this
-`python
-pytinstaller --onefile hpL3.py
-`
+* Compile a new addL3.exe by doing this `pyinstaller.exe --onefile hpL3.py`
 * This will create a "build" and a "dist" folder. Copy the new hpL3.exe file from the dist folder into the main directory.
