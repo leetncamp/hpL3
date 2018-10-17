@@ -31,3 +31,10 @@ Saving...C:\Users\support2\Desktop\hpL3\results\9.32 May 2018_L3.xlsx
 * copy your 9.32 file into the directory. 
 * make sure there is only one file that contains "L3" and only one file that contains "9.32"
 * python addL3.py
+
+###To complile a new version
+
+* Edit addL3.py to suit your needs
+* Compile a new addL3.exe by doing this
+** pytinstaller --onefile hpL3.py
+* This will create a "build" and a "dist" folder. Copy the new hpL3.exe file from the dist folder into the main directory.
